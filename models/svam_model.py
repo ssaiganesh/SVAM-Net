@@ -2,11 +2,11 @@
 # > The end-to-end SVAM-Net architecture 
 """
 import tensorflow as tf
-import keras.backend as K
-from keras.models import Model
-from keras.models import model_from_json
-from keras.layers.convolutional import UpSampling2D, Conv2D
-from keras.layers import Activation, Add, Multiply, Concatenate, BatchNormalization
+import tensorflow.keras.backend as K
+from tensorflow.keras.models import Model
+from tensorflow.keras.models import model_from_json
+from tensorflow.keras.layers import UpSampling2D, Conv2D
+from tensorflow.keras.layers import Activation, Add, Multiply, Concatenate, BatchNormalization
 from bilinear_upsampling import BilinearUpsampling
 from vgg_en_dec import plain_vgg_en_dec
 
